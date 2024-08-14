@@ -56,6 +56,27 @@
                     "Horario": "T2",
                     "Notas": {}
                 }
+            },
+            "555": {
+                "Nombres": "Adrian",
+                "Apellidos": "Ortiz",
+                "Direccion": "Calle 46b # 4a-63",
+                "Acudiente": "Nelly Ortiz",
+                "Celular": "3153065043",
+                "Telefono Fijo": "6321456",
+                "Informacion": {
+                    "Resultado Pruebas": 85,
+                    "Estado": "Cursando",
+                    "Ruta": "Python",
+                    "Trainer": "Jose",
+                    "Horario": "M2",
+                    "Notas": {
+                        "Taller": 96,
+                        "Filtro": 87,
+                        "Nota final": 91.5,
+                        "Riesgo": false
+                    }
+                }
             }
         },
         "Trainers": {
