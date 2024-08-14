@@ -1,0 +1,116 @@
+{
+    "Usuarios": {
+        "Campers": {
+            "1010": {
+                "Nombres": "Stefany",
+                "Apellidos": "Sanchez",
+                "Direccion": "Calle 46b #4a-63",
+                "Acudiente": "Rosa Santos",
+                "Celular": "3153065043",
+                "Telefono Fijo": "6541236",
+                "Informacion": {
+                    "Resultado Pruebas": 66,
+                    "Estado": "Cursando",
+                    "Ruta": "Java",
+                    "Horario": "M1",
+                    "Notas": {
+                        "Taller": 45,
+                        "Filtro": 20,
+                        "Nota final": 32.5,
+                        "Riesgo": true
+                    }
+                }
+            },
+            "1515": {
+                "Nombres": "Tatis",
+                "Apellidos": "Sanchez",
+                "Direccion": "Calle 44 # 6-34",
+                "Acudiente": "Rosa Santos",
+                "Celular": "3166279815",
+                "Telefono Fijo": "6321456",
+                "Informacion": {
+                    "Resultado Pruebas": 75,
+                    "Estado": "Cursando",
+                    "Ruta": "Nodejs",
+                    "Horario": "T1",
+                    "Notas": {
+                        "Taller": 96,
+                        "Filtro": 56,
+                        "Nota final": 76.0,
+                        "Riesgo": false
+                    }
+                }
+            },
+            "2020": {
+                "Nombres": "Yesenia",
+                "Apellidos": "Silencio",
+                "Direccion": "Calle 44 # 6-34",
+                "Acudiente": "Santos",
+                "Celular": "3166279815",
+                "Telefono Fijo": "6321456",
+                "Informacion": {
+                    "Resultado Pruebas": 86,
+                    "Estado": "Aprobado",
+                    "Ruta": "NodeJs",
+                    "Trainer": "Jose",
+                    "Horario": "T2",
+                    "Notas": {}
+                }
+            }
+        },
+        "Trainers": {
+            "101010": {
+                "Nombres": "Juan",
+                "Apellidos": "Marino",
+                "Edad": 27,
+                "Horario": "T2"
+            },
+            "20": {
+                "Nombres": "Jose",
+                "Apellidos": "Plazas",
+                "Edad": 27,
+                "Horario": "M1"
+            }
+        }
+    },
+    "Rutas": [
+        "Java",
+        "Nodejs",
+        "Python",
+        "Netcore"
+    ],
+    "Horarios": {
+        "M1": {
+            "Salon": "Sputnik",
+            "6:00am | 8:00am": "Fundamentos de programacion",
+            "8:00am | 9:00am": "Programacion Web",
+            "9:30am | 11:30am": "Programacion formal",
+            "11:30am | 12:30pm": "Bases de datos",
+            "12:30pm | 2:00pm": "Backend"
+        },
+        "M2": {
+            "Salon": "Kepler",
+            "6:00am | 8:00am": "Programacion formal",
+            "8:00am | 9:00am": "Backend",
+            "9:30am | 11:30am": "Bases de datos",
+            "11:30am | 12:30pm": "Fundamentos de programacion",
+            "12:30pm | 2:00pm": "Programacion Web"
+        },
+        "T1": {
+            "Salon": "Sputnik",
+            "3:00pm | 5:00pm": "Fundamentos de programacion",
+            "5:00pm | 6:00pm": "Programacion Web",
+            "6:30pm | 7:30pm": "Programacion formal",
+            "7:30pm | 8:30pm": "Bases de datos",
+            "8:30pm | 10:00pm": "Backend"
+        },
+        "T2": {
+            "Salon": "Apolo",
+            "3:00pm | 5:00pm": "Programacion formal",
+            "5:00pm | 6:00pm": "Backend",
+            "6:30pm | 7:30pm": "Bases de datos",
+            "7:30pm | 8:30pm": "Fundamentos de programacion",
+            "8:30pm | 10:00pm": "Programacion Web"
+        }
+    }
+}
